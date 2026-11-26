@@ -2,7 +2,7 @@
 
 **证明署名：** Chain.Ren · 独立研究 · [完整证明](PROOF.md) · 版本日期：2026-11-26
 
-[固定版本证明](https://github.com/Asakitan/oeis-a187176/blob/proof-v1.0.0/PROOF.md) · [GitHub Release 与公开时间](https://github.com/Asakitan/oeis-a187176/releases/tag/proof-v1.0.0) · [引用信息](CITATION.cff)
+[固定版本证明](https://github.com/Asakitan/oeis-a187176/blob/proof-v1.0.1/PROOF.md) · [GitHub Release 与公开时间](https://github.com/Asakitan/oeis-a187176/releases/tag/proof-v1.0.1) · [引用信息](CITATION.cff)
 
 证明了 OEIS 所列普通生成函数；棋盘边长 $n\ge10$ 时，计数为 $284n^2-3100n+7944$。
 
@@ -15,5 +15,3 @@ python -B verify.py
 ```
 
 复核只用 Python 标准库。脚本覆盖全部 1024 种位移词、核对 17 类跨度及有限生成函数分子。
-
-本仓库给出可复核证明；不主张已经核定首证优先权。

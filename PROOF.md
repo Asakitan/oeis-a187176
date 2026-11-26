@@ -2,9 +2,9 @@
 
 **署名：** Chain.Ren · 独立研究
 
-**版本：** [proof-v1.0.0](https://github.com/Asakitan/oeis-a187176/releases/tag/proof-v1.0.0) · 版本日期：2026-11-26（Australia/Sydney）；实际公开时间见 Release。
+**版本：** [proof-v1.0.1](https://github.com/Asakitan/oeis-a187176/releases/tag/proof-v1.0.1) · 版本日期：2026-11-26（Australia/Sydney）；实际公开时间见 Release。
 
-本证明与验证资料在 OpenAI Codex 的实质协助下形成；不代表学校成果，不主张已完成同行评审或核定全球首证。
+本证明与验证资料在 OpenAI Codex 的实质协助下形成；不代表学校成果，未经同行评审。
 
 在 $n\times n$ 棋盘上计数依次访问 6 个不同格点的有序路径，也就是走 5 次，不必回到起点。合法位移取 $(2,1),(-1,2),(-2,-1),(1,-2)$；反射棋盘会换成另一手性而不改变计数。此约定与 [A187176 原条目](https://oeis.org/A187176)的编号落点示例一致。
 
@@ -31,4 +31,4 @@ $$
 G(z)=\frac{8z^{6}(11+29z+27z^{2}+18z^{3}-3z^{4}-9z^{5}-2z^{6})}{(1-z)^3}.
 $$
 
-这正是 Colin Barker 在条目列出的生成函数。脚本比较整个差分分子；不是只匹配若干已知序列项。R. H. Hardin 给出计数题，本文给出证书，不主张已确定最早证明。
+这正是 Colin Barker 在条目列出的生成函数。脚本比较整个差分分子；不是只匹配若干已知序列项。R. H. Hardin 给出计数题，本文给出证书。
