@@ -1,5 +1,9 @@
 # A187176：左旋骑士的 6 格路径
 
+**证明署名：** Chain.Ren · 独立研究 · [完整证明](PROOF.md) · 版本日期：2026-11-26
+
+[固定版本证明](https://github.com/Asakitan/oeis-a187176/blob/proof-v1.0.0/PROOF.md) · [GitHub Release 与公开时间](https://github.com/Asakitan/oeis-a187176/releases/tag/proof-v1.0.0) · [引用信息](CITATION.cff)
+
 证明了 OEIS 所列普通生成函数；棋盘边长 $n\ge10$ 时，计数为 $284n^2-3100n+7944$。
 
 [OEIS 原条目](https://oeis.org/A187176) · [完整证明](PROOF.md) · [MIT 许可证](LICENSE)

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "To cite the independently released proof and verification materials, use the versioned citation below."
+title: "A187176: the six-cell left-handed knight path generating function"
+authors:
+  - family-names: "Chain.Ren"
+version: "1.0.0"
+date-released: "2026-11-26"
+url: "https://github.com/Asakitan/oeis-a187176/releases/tag/proof-v1.0.0"
+repository-code: "https://github.com/Asakitan/oeis-a187176"
+license: MIT
+preferred-citation:
+  type: report
+  title: "A187176: the six-cell left-handed knight path generating function"
+  authors:
+    - family-names: "Chain.Ren"
+  version: "1.0.0"
+  year: 2026
+  url: "https://github.com/Asakitan/oeis-a187176/blob/proof-v1.0.0/PROOF.md"
